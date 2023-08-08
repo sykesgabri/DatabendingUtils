@@ -1,8 +1,3 @@
-def rmtiffh(converted_image_path, headless_converted_image_path):
-    with open(converted_image_path, 'rb') as input_file:
-        # Skip the TIFF header
-        input_file.seek(8)
-        data = input_file.read()
+# Insert code here to remove TIFF header and IFD.
 
-    with open(headless_converted_image_path, 'wb') as output_file:
-        output_file.write(data)
+# I can't get this working, so hopefully someone more talented than me can. - SykesGabri
