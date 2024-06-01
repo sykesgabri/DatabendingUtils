@@ -1,3 +1,6 @@
+# IMPORTANT
+This version of the program is the deprecated Python version, this repo will remain available for archival purposes, but will no longer be updated. For the new version of this program, written in Rust, go [here](https://github.com/sykesgabri/databendingutils-rs).
+
 # DatabendingUtils
 
 This program converts most images into a format ready for databending. You can choose between BMP or TIFF, which both have different and unique properties when databending.
